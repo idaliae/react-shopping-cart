@@ -4,6 +4,8 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+      <header>
+        <div className="overlay"></div>
         <nav>
           <h2>Shop
             <ul>
@@ -13,6 +15,7 @@ function App() {
             </ul>
           </h2>
         </nav>
+      </header>
     </div>
   );
 }
